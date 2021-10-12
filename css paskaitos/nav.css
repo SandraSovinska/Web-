@@ -1,0 +1,22 @@
+ul{
+    list-style-type: none;
+}
+
+nav ul{
+    display: flex;
+    background-color: aqua;
+    padding: 8px;
+    justify-content: center;
+}
+
+nav ul li a{
+    padding:8px;
+    background-color: aqua;
+    text-decoration: blue;
+    text-transform: uppercase;
+
+}
+nav ul li a:hover{
+    background-color:burlywood;
+    color:cornflowerblue;
+}

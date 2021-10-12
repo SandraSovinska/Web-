@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+
+
+
+    <script>
+
+        //skaiciai
+        let firstNumber = 5.2;
+        let secondNumber = 10;
+        console.log(firstNumber + secondNumber);
+
+        let firstNumber1 = "5.2";//jeigu stringas sumoje viskas yra stringas
+        let secondNumber1 = 10;
+        console.log(Number(firstNumber1) + secondNumber1);
+
+        //Tekstas
+        let name = "Jonas";
+        let surname = "Jonaitis";
+        console.log(name + " " + surname);//su pliusu
+        console.log(name.concat(" ", surname));// su concat
+
+
+        //indexOf
+        let text = "Laba diena, graži diena"
+        let position = text.indexOf("diena");
+        console.log(position);
+
+        //substring
+        let newText = text.substring(0, 10);//sukarpo teksta
+        console.log(newText);
+
+        //split
+        let words = text.split(" ");//iškerpa (tarpą šiuo atveju)
+        console.log(words);
+
+        //array
+        console.log(words[1]);
+
+        //boolean
+        let flag = false;// pirmas
+        if (flag) {
+            console.log("flag is true");
+        }
+        else {
+            console.log("flag is false");
+        }
+
+
+        let flag1 = 5 > 2;// antras
+        if (flag1) {
+            console.log("flag1 is true");
+        }
+        else {
+            console.log("flag1 is false");
+        }
+
+        let a = 1;// trečias
+        let b = 5;
+        let flag2 = a > b;
+        if (a > b) {
+            console.log("flag2 is true");
+        }
+        else {
+            console.log("flag2 is false ");
+        }
+
+        //while ciklas
+       // while (flag1) {
+            //console.log("flag is true");
+       // }
+
+        // for ciklas
+        for (let index = 0; index < 5; index++) {
+            console.log(index);
+        }
+
+
+
+
+
+    </script>
+
+</body>
+
+</html>
