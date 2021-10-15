@@ -19,7 +19,7 @@ function createStudent(student){
 
     ).then(response => {
         if (response.ok) {
-            return response.json()
+          console.log(response);
         }
         else {
             alert("Yra bėdų");
